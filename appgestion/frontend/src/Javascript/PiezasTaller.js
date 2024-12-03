@@ -81,7 +81,18 @@ const PiezasTaller = () => {
     try {
       const response = await axios.post('https://gestioninfo.onrender.com/api/insertar', nuevaPieza);
       console.log('Pieza insertada:', response.data);
-      setPiezas([...piezas, response.data]); // Añadir la nueva pieza a la tabla
+      
+      // Hacer una solicitud GET para obtener la lista de piezas actualizada
+      const piezasActualizadas = await axios.get(`https://gestioninfo.onrender.com/api/piezas/${material}`);
+      console.log('Piezas actualizadas:', piezasActualizadas.data);
+ 
+       // Actualizar el estado de las piezas con la lista actualizada
+      setPiezas(piezasActualizadas.data);
+
+      // Limpiar los campos de los textbox después de la actualización, pero no cambiar el material
+      setNombre('');
+      setFabricante('');
+      setSelectedPieza(null);
     } catch (error) {
       console.error('Error al insertar la pieza:', error);
     }
