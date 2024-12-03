@@ -85,10 +85,12 @@ const PiezasTaller = () => {
       // Hacer una solicitud GET para obtener la lista de piezas actualizada
       const piezasActualizadas = await axios.get(`https://gestioninfo.onrender.com/api/piezas/${material}`);
       console.log('Piezas actualizadas:', piezasActualizadas.data);
- 
+      
       // Aquí actualizamos el estado de las piezas añadiendo la nueva pieza
-      setPiezas(prevPiezas => [...prevPiezas, response.data]);
-
+      setPiezas(piezasActualizadas.data);
+      
+      console.log('Piezas:', piezas.data);
+      
       // Limpiar los campos de los textbox después de la actualización, pero no cambiar el material
       setNombre('');
       setFabricante('');
