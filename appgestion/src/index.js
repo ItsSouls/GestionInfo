@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <Router>  {/* Envuelve toda la app con BrowserRouter */}
       <Routes>  {/* Usamos Routes para manejar las rutas */}
-        <Route path="/" element={<Login />} />  {/* Ruta para la página de login */}
+        <Route path="/GestionInfo" element={<Login />} />  {/* Ruta para la página de login */}
         <Route path="/register" element={<Register />} />  {/* Ruta para la página de registro */}
         <Route path="/pagPrincipal" element={<PiezasTaller/>}/>
       </Routes>
