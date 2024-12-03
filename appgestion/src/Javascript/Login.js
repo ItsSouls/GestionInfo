@@ -11,7 +11,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/api/login', { nombre, password });
+      const response = await axios.post('https://gestion-info.vercel.app/api/login', { nombre, password });
       
       // Aquí capturamos el rol del usuario (rolName) desde la respuesta
       const { rolName } = response.data;

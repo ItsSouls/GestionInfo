@@ -32,7 +32,7 @@ const PiezasTaller = () => {
   useEffect(() => {
     const fetchMateriales = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/materiales');
+        const response = await axios.get('https://gestion-info.vercel.app/api/materiales');
         console.log('Datos recibidos:', response.data); // Debug log
 
         if (Array.isArray(response.data)) {
@@ -56,7 +56,7 @@ const PiezasTaller = () => {
     if (material) {
       const fetchPiezas = async () => {
         try {
-          const response = await axios.get(`http://localhost:5000/api/piezas/${material}`);
+          const response = await axios.get(`https://gestion-info.vercel.app/api/piezas/${material}`);
           console.log('Piezas recibidas:', response.data); // Debug log
           setPiezas(response.data);
         } catch (error) {
@@ -79,7 +79,7 @@ const PiezasTaller = () => {
     };
 
     try {
-      const response = await axios.post('http://localhost:5000/api/insertar', nuevaPieza);
+      const response = await axios.post('https://gestion-info.vercel.app/api/insertar', nuevaPieza);
       console.log('Pieza insertada:', response.data);
       setPiezas([...piezas, response.data]); // Añadir la nueva pieza a la tabla
     } catch (error) {
@@ -112,11 +112,11 @@ const PiezasTaller = () => {
 
     try {
       // Realizar la solicitud PUT para actualizar la pieza
-      const response = await axios.put(`http://localhost:5000/api/actualizar/${selectedPieza._id}`, updatedPieza);
+      const response = await axios.put(`https://gestion-info.vercel.app/api/actualizar/${selectedPieza._id}`, updatedPieza);
       console.log('Pieza actualizada:', response.data);
 
       // Hacer una solicitud GET para obtener la lista de piezas actualizada
-      const piezasActualizadas = await axios.get(`http://localhost:5000/api/piezas/${material}`);
+      const piezasActualizadas = await axios.get(`https://gestion-info.vercel.app/api/piezas/${material}`);
       console.log('Piezas actualizadas:', piezasActualizadas.data);
 
       // Actualizar el estado de las piezas con la lista actualizada
@@ -141,11 +141,11 @@ const PiezasTaller = () => {
 
     try {
       // Realizar la solicitud DELETE para borrar la pieza
-      const response = await axios.delete(`http://localhost:5000/api/borrar/${selectedPieza._id}`);
+      const response = await axios.delete(`https://gestion-info.vercel.app/api/borrar/${selectedPieza._id}`);
       console.log('Pieza borrada:', response.data);
 
       // Hacer una solicitud GET para obtener la lista de piezas actualizada
-      const piezasActualizadas = await axios.get(`http://localhost:5000/api/piezas/${material}`);
+      const piezasActualizadas = await axios.get(`https://gestion-info.vercel.app/api/piezas/${material}`);
       console.log('Piezas actualizadas:', piezasActualizadas.data);
 
       // Actualizar el estado de las piezas con la lista actualizada
