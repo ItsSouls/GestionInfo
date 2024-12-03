@@ -81,9 +81,7 @@ const PiezasTaller = () => {
     try {
       const response = await axios.post('https://gestioninfo.onrender.com/api/insertar', nuevaPieza);
       console.log('Pieza insertada:', response.data);
-      
-      const piezasActualizadas = await axios.get(`https://gestioninfo.onrender.com/api/piezas/${material}`);
-      setPiezas(piezasActualizadas.data);
+      setPiezas([...piezas, response.data]); // Añadir la nueva pieza a la tabla
     } catch (error) {
       console.error('Error al insertar la pieza:', error);
     }
@@ -165,7 +163,7 @@ const PiezasTaller = () => {
   };
 
   const handleSalir = () => {
-    navigate('/GestionInfo');
+    navigate('/');
   };
 
   const handleMaterialChange = (e) => {
