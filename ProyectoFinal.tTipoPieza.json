@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "674cdb29d5e1b56f1eae9336"
+  },
+  "ID_TIPO": "A",
+  "NOMBRE": "Chapa"
+},
+{
+  "_id": {
+    "$oid": "674cdb29d5e1b56f1eae9337"
+  },
+  "ID_TIPO": "B",
+  "NOMBRE": "Motor"
+},
+{
+  "_id": {
+    "$oid": "674cdb29d5e1b56f1eae9338"
+  },
+  "ID_TIPO": "D",
+  "NOMBRE": "Sensores"
+},
+{
+  "_id": {
+    "$oid": "674cdb29d5e1b56f1eae9339"
+  },
+  "ID_TIPO": "C",
+  "NOMBRE": "Iluminación"
+},
+{
+  "_id": {
+    "$oid": "674cdb29d5e1b56f1eae933a"
+  },
+  "ID_TIPO": "G",
+  "NOMBRE": "Otros"
+},
+{
+  "_id": {
+    "$oid": "674cdb29d5e1b56f1eae933b"
+  },
+  "ID_TIPO": "F",
+  "NOMBRE": "Pintura"
+},
+{
+  "_id": {
+    "$oid": "674cdb29d5e1b56f1eae933c"
+  },
+  "ID_TIPO": "E",
+  "NOMBRE": "Cristales"
+}]

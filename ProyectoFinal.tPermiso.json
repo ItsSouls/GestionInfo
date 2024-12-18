@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "674cdb2931705a2399e8909a"
+  },
+  "rolName": "administrador",
+  "pantalla": "TIPOPIEZA",
+  "acceso": true,
+  "modificacion": true
+},
+{
+  "_id": {
+    "$oid": "674cdb2931705a2399e8909b"
+  },
+  "rolName": "usuario",
+  "pantalla": "TIPOPIEZA",
+  "acceso": true,
+  "modificacion": false
+},
+{
+  "_id": {
+    "$oid": "674cdb2931705a2399e8909c"
+  },
+  "rolName": "usuario",
+  "pantalla": "LOGIN",
+  "acceso": true,
+  "modificacion": true
+},
+{
+  "_id": {
+    "$oid": "674cdb2931705a2399e8909d"
+  },
+  "rolName": "administrador",
+  "pantalla": "LOGIN",
+  "acceso": true,
+  "modificacion": true
+},
+{
+  "_id": {
+    "$oid": "674cdb2931705a2399e8909e"
+  },
+  "rolName": "usuario",
+  "pantalla": "PIEZAS",
+  "acceso": true,
+  "modificacion": false
+},
+{
+  "_id": {
+    "$oid": "674cdb2931705a2399e8909f"
+  },
+  "rolName": "administrador",
+  "pantalla": "PIEZAS",
+  "acceso": true,
+  "modificacion": true
+},
+{
+  "_id": {
+    "$oid": "674cdb2931705a2399e890a0"
+  },
+  "rolName": "invitado",
+  "pantalla": "LOGIN",
+  "acceso": true,
+  "modificacion": true
+},
+{
+  "_id": {
+    "$oid": "674cdb2931705a2399e890a1"
+  },
+  "rolName": "invitado",
+  "pantalla": "PIEZAS",
+  "acceso": false,
+  "modificacion": false
+},
+{
+  "_id": {
+    "$oid": "674cdb2931705a2399e890a2"
+  },
+  "rolName": "invitado",
+  "pantalla": "TIPOPIEZA",
+  "acceso": false,
+  "modificacion": false
+}]

@@ -1,0 +1,192 @@
+[{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d61"
+  },
+  "NOMBRE": "Bombillas luz delantera",
+  "FABRICANTE": "RENAULT",
+  "ID_TIPO": "C"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d62"
+  },
+  "NOMBRE": "Bombillas luz trasera",
+  "FABRICANTE": "RENAULT",
+  "ID_TIPO": "C"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d63"
+  },
+  "NOMBRE": "Bombillas señalización trasera",
+  "FABRICANTE": "RENAULT",
+  "ID_TIPO": "C"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d64"
+  },
+  "NOMBRE": "Estuches de bombillas",
+  "FABRICANTE": "RENAULT",
+  "ID_TIPO": "C"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d65"
+  },
+  "NOMBRE": "Iluminación LED",
+  "FABRICANTE": "RENAULT",
+  "ID_TIPO": "C"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d66"
+  },
+  "NOMBRE": "Bombillas interior",
+  "FABRICANTE": "RENAULT",
+  "ID_TIPO": "C"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d67"
+  },
+  "NOMBRE": "Bombillas Xenon",
+  "FABRICANTE": "RENAULT",
+  "ID_TIPO": "C"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d68"
+  },
+  "NOMBRE": "Juntas y otras piezas del motor",
+  "FABRICANTE": "FORD",
+  "ID_TIPO": "B"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d69"
+  },
+  "NOMBRE": "Bombillas señalización delantera",
+  "FABRICANTE": "RENAULT",
+  "ID_TIPO": "C"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d6a"
+  },
+  "NOMBRE": "Alimentación",
+  "FABRICANTE": "FORD",
+  "ID_TIPO": "B"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d6b"
+  },
+  "NOMBRE": "PARAGOLPES TRASERO-IMPRIMADO",
+  "FABRICANTE": "MAZDA",
+  "ID_TIPO": "A"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d6c"
+  },
+  "NOMBRE": "Correas",
+  "FABRICANTE": "FORD",
+  "ID_TIPO": "B"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d6d"
+  },
+  "NOMBRE": "PARAGOLPES DELANTERO NEGRO-LISO A IMPRIMAR",
+  "FABRICANTE": "MAZDA",
+  "ID_TIPO": "A"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d6e"
+  },
+  "NOMBRE": "Kits",
+  "FABRICANTE": "FORD",
+  "ID_TIPO": "B"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d6f"
+  },
+  "NOMBRE": "Kits de distribución",
+  "FABRICANTE": "FORD",
+  "ID_TIPO": "B"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d70"
+  },
+  "NOMBRE": "Poleas",
+  "FABRICANTE": "FORD",
+  "ID_TIPO": "B"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d71"
+  },
+  "NOMBRE": "Herramienta específica",
+  "FABRICANTE": "FORD",
+  "ID_TIPO": "B"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d72"
+  },
+  "NOMBRE": "Turbocompresores",
+  "FABRICANTE": "FORD",
+  "ID_TIPO": "B"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d73"
+  },
+  "NOMBRE": "Válvulas EGR",
+  "FABRICANTE": "FORD",
+  "ID_TIPO": "B"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d74"
+  },
+  "NOMBRE": "Sensores electrónicos y medidores de flujo",
+  "FABRICANTE": "FORD",
+  "ID_TIPO": "B"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d75"
+  },
+  "NOMBRE": "Cable de acelerador y starter",
+  "FABRICANTE": "FORD",
+  "ID_TIPO": "B"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d76"
+  },
+  "NOMBRE": "ALETA DELANTERA DCH CON AUJERO PARA PILOTO CX3 16",
+  "FABRICANTE": "MAZDA",
+  "ID_TIPO": "A"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d77"
+  },
+  "NOMBRE": "REJILLA NEGRA",
+  "FABRICANTE": "MAZDA",
+  "ID_TIPO": "A"
+},
+{
+  "_id": {
+    "$oid": "674cdb294c6103e100383d78"
+  },
+  "NOMBRE": "ALETA DELANTERA IZQ CON AUJERO PARA PILOTO CX3 16",
+  "FABRICANTE": "MAZDA",
+  "ID_TIPO": "A"
+}]

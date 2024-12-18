@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "674cdb2970596c65fb88476f"
+  },
+  "nombre": "user",
+  "password": "user",
+  "rolName": "usuario"
+},
+{
+  "_id": {
+    "$oid": "674cdb2970596c65fb884770"
+  },
+  "nombre": "admin",
+  "password": "admin",
+  "rolName": "administrador"
+},
+{
+  "_id": {
+    "$oid": "674cdb2970596c65fb884771"
+  },
+  "nombre": "inv",
+  "password": "inv",
+  "rolName": "invitado"
+}]
